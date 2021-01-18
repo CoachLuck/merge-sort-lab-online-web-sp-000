@@ -3,7 +3,7 @@ function findMinAndRemove(a, b) {
 }
 
 function findMinAndRemoveSorted(arr) {
-  return (arr.length <= 1) ? arr[0] : findMinAndRemove(arr[0], arr);
+  return arr.shift();
 }
 
 function merge(a, b) {
